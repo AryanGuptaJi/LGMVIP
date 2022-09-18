@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    background-color: #111;
+}
+
+h1 {
+	color: #fff;
+	font-size: 50px;
+	font-weight: 20;
+	text-align: center;
+	margin: 20px 0 35px; 
+	font-family: 'Hind', sans-serif;
+}
+
+.style{
+	color: rgb(24, 24, 237);
+	font-weight: 1000;
+}
+
+.list_input{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    text-align: center;
+}
+
+.list_input .input{
+    padding: 8px 16px;
+    outline: none;
+    border: none;
+    height: 50px;
+    border-radius: 25px;
+    width: 350px;
+    margin: 5px;
+    font-size: 20px;
+    background-color: #fff;
+}
+
+.add{
+	outline: none;
+    border: none;
+    background-color: #fff;
+    height: 50px;
+    border-radius: 20px;
+    width: 50px;
+    background-color: rgb(202, 238, 0);
+    color: #111;
+    font-size: 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.add:hover{
+	opacity: 0.7;
+}
+
+.tasks{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: 25px;
+}
+
+.item{
+	padding: 5px;
+	border-bottom: 4px solid #fff;
+	margin-bottom: 25px;
+}
+
+.add_items{
+	background: none;
+	outline: none;
+	border: none;
+	color: #fff;
+	font-size: 20px;
+	width: 350px;
+}
+
+.edit{
+	background: none;
+	outline: none;
+    border-radius: 25px;
+	border-color: #fff;
+	color: rgb(24, 24, 237);
+	font-size: 20px;
+	font-family: 'Hind', sans-serif;
+	margin: 0 8px;
+	cursor: pointer;
+    padding: 5px 5px 5px 5px;
+}
+
+.removeButton{
+	background: none;
+	outline: none;
+	border-radius: 25px;
+	border-color: #fff;
+	color: rgb(202, 238, 0);
+	font-size: 20px;
+	font-family: 'Hind', sans-serif;
+    margin: 0 8px;
+	cursor: pointer;
+    padding: 5px 5px 5px 5px;
+} 
