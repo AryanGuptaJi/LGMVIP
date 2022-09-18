@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENROLLMENT FORM</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h2>Student Enrollment Form</h2>
+
+    <section>
+
+        <div class="form">
+            <form>
+                <div class="labels">
+                    <label for="name" class="input_labels">Name</label>
+                    <input type="text" name="name" id="name" class="inputs" placeholder="enter your name" required>
+                </div>
+                <div class="labels"> 
+                    <label for="email" class="input_labels">Email</label>
+                    <input type="email" name="email" id="email" class="inputs" placeholder="enter your email" required>
+                </div>
+                <div class="labels">
+                    <label for="website" class="input_labels">Website</label>
+                    <input type="url" name="website" id="website" class="inputs" placeholder="enter url" required>
+                </div>
+                <div>
+                    <label for="image" class="input_labels">Image Link</label>
+                    <input type="file" name="image" id="image" class="inputs" required>
+                </div>
+                <div>
+                    <label class="radio_labels">Gender</label>
+                    <br>
+                    <input type="radio" name="gender" id="male" value="male" >
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="female" value="female" >
+                    <label for="female">Female</label>
+                </div>
+                <div>
+                    <label class="radio_labels">Skills</label>
+                    <br>
+                    <input type="checkbox" id="skill_1" name="skill1" value="Java" >
+                    <label for="skill_1">Java</label>
+                    <input type="checkbox" id="skill_2" name="skill2" value="HTML" >
+                    <label for="skill_2">HTML</label>
+                    <input type="checkbox" id="skill_3" name="skill3" value="CSS" >
+                    <label for="skill_3">CSS</label>
+                </div>
+                <div>
+                    <input type="submit" value="Enroll Student" class="enroll">
+                </div>
+            </form>
+        </div>
+
+        <div class="display">
+            <h3>Enrolled Students</h3>
+            <div class="dataset">
+            </div>
+        </div>
+
+    </section>
+    <script src="js/main.js"></script>
+</body>
+</html>
